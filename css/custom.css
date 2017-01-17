@@ -1,0 +1,29 @@
+.jumbotron {
+    background-color: #000fff;   
+}
+
+.jumbotron {
+    background: #333 url("../image/jumbotron/Karp.gif") no-repeat center center;    
+}
+
+.jumbotron h1{
+    background-color: transparent;    
+    -webkit-text-fill-color: #090;
+}
+
+.jumbotron p{
+    background-color: transparent;
+    -webkit-text-fill-color: #090;    
+}
+
+.introduction {
+
+}
+
+#firstAnswer {
+    display: none;
+}
+
+p.morecontent {
+    display: none;
+}
