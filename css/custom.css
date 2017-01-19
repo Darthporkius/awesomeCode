@@ -16,14 +16,65 @@
     -webkit-text-fill-color: #090;    
 }
 
-.introduction {
-
-}
-
 #firstAnswer {
     display: none;
 }
 
 p.morecontent {
+    display: none;
+}
+
+html,body{
+    height: 100%;
+}
+
+#faq {
+    float: left;
+}
+
+.imageContainer{
+    float: left;
+    margin:10px;
+    width: 250px;
+    height: 250px;
+}
+
+#cool1{
+    background: #333 url("../image/ImageGallery/cool1.jpg")
+    no-repeat center center;
+    background-size: cover;
+}
+
+#cool2{
+    background: #333 url("../image/ImageGallery/cool2.jpg")
+    no-repeat center center;
+    background-size: cover; 
+}
+
+#cool3{
+    background: #333 url("../image/ImageGallery/cool3.jpg")
+    no-repeat center center;
+    background-size: cover; 
+}
+
+#cool4{
+    background: #333 url("../image/ImageGallery/cool4.jpg")
+    no-repeat center center;
+    background-size: cover; 
+}
+
+.close{
+    z-index: 2;
+    position: fixed;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+
+    background: url("../image/ImageGallery/CloseIcon.png")
+    no-repeat center center;
+    background-size: contain;
+    margin: 20px;
     display: none;
 }
